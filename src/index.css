@@ -1,0 +1,198 @@
+@import url('https://fonts.cdnfonts.com/css/dseg7-classic-mini');
+
+:root {
+  color-scheme: only light;
+  background-color: #ffffff !important;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100vh;
+  margin: 0;
+  background-color: #ffffff !important;
+}
+
+html {
+  forced-color-adjust: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button:focus-visible,
+[role="button"]:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid rgba(39, 64, 107, 0.92);
+  outline-offset: 3px;
+}
+
+.app-focus-ring:focus-visible {
+  outline: 3px solid rgba(39, 64, 107, 0.92);
+  outline-offset: 3px;
+}
+
+.hmi-button:focus-visible {
+  outline: 3px solid rgba(255, 255, 255, 0.96);
+  outline-offset: 3px;
+}
+
+.surface-button,
+.menu-item-button,
+.fault-card-button {
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.surface-button:hover,
+.surface-button:focus-visible {
+  background: #e8eef8;
+}
+
+.menu-item-button:hover,
+.menu-item-button:focus-visible {
+  background: #f9fafb;
+}
+
+.fault-card-button:hover:not(:disabled),
+.fault-card-button:focus-visible:not(:disabled) {
+  background: #fee6e6;
+}
+
+.component-library-panel {
+  overflow: hidden;
+}
+
+.component-library-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 340px) minmax(0, 1fr);
+  gap: 18px;
+  min-height: 0;
+  flex: 1;
+  overflow: hidden;
+}
+
+.component-library-sidebar,
+.component-library-details {
+  min-height: 0;
+  overflow-y: auto;
+}
+
+.component-library-sidebar {
+  padding-right: 4px;
+}
+
+.component-library-details {
+  padding-right: 4px;
+}
+
+.component-library-item {
+  appearance: none;
+}
+
+.component-library-data-table {
+  overflow-x: auto;
+}
+
+.component-library-data-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.component-library-data-table th,
+.component-library-data-table td {
+  border-bottom: 1px solid #e7edf7;
+  padding: 10px 8px;
+  text-align: left;
+  font-size: 12px;
+  color: #394a66;
+  vertical-align: top;
+}
+
+.component-library-data-table thead th {
+  color: #26324a;
+  font-weight: 700;
+  background: #f7f9fc;
+}
+
+.component-library-data-table tbody th {
+  font-weight: 600;
+  width: 35%;
+}
+
+.component-library-state-viewer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.component-library-chart {
+  display: grid;
+  gap: 12px;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #dbe4f1;
+  background: #f8fbff;
+}
+
+.app-header {
+  min-height: 78px;
+}
+
+.app-header-actions {
+  flex: 1 1 420px;
+}
+
+.app-header-title {
+  flex: 1 1 260px;
+  min-width: min(260px, 100%);
+}
+
+@media (max-width: 900px) {
+  .component-library-layout {
+    grid-template-columns: 1fr;
+    overflow: visible;
+  }
+
+  .component-library-sidebar,
+  .component-library-details {
+    overflow: visible;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .app-header {
+    align-items: flex-start;
+  }
+
+  .app-header-actions {
+    flex-basis: 100%;
+  }
+
+  .app-header-title {
+    flex-basis: 100%;
+    margin-left: 0 !important;
+    align-items: flex-start !important;
+    text-align: left !important;
+  }
+}
