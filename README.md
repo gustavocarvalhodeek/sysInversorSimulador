@@ -124,11 +124,24 @@ Este sistema é um **simulador educacional**. Ele foi modelado para estudo, trei
 
 ## 🖼️ Demonstração
 
-![](https://i.ibb.co/Lhs59wHQ/Captura-de-tela-2026-05-23-142708.png)
+### Fotos do simulador
 
-![](https://i.ibb.co/KpkX6yQM/Captura-de-tela-2026-05-23-143249.png)
+Algumas telas do projeto para ilustrar a experiência visual e didática do simulador:
 
-![](https://i.ibb.co/8gwyHxsJ/Captura-de-tela-2026-05-23-142809.png)
+**Tela principal do simulador**  
+Visão geral com a HMI, o painel de parâmetros e a simulação do motor.
+
+![Tela principal do simulador](https://i.ibb.co/Lhs59wHQ/Captura-de-tela-2026-05-23-142708.png)
+
+**Gráfico expandido da simulação do motor**  
+Janela ampliada para acompanhar as grandezas do motor em tempo real.
+
+![Gráfico expandido da simulação do motor](https://i.ibb.co/KpkX6yQM/Captura-de-tela-2026-05-23-143249.png)
+
+**Visão complementar da interface**  
+Captura adicional da aplicação em uso para documentação e apresentação.
+
+![Visão complementar do simulador](https://i.ibb.co/8gwyHxsJ/Captura-de-tela-2026-05-23-142809.png)
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -512,6 +525,14 @@ npm ls --depth=0
 - Parte do conteúdo da biblioteca é documental ou visual, não operacional.
 - O simulador **não substitui** o manual oficial do fabricante.
 - O projeto **não deve ser usado** como ferramenta de validação de instalação industrial real.
+
+## 🤖 Desenvolvimento assistido por IA
+
+Este projeto foi desenvolvido com apoio da IA do **Codex** para acelerar etapas de implementação, revisão e documentação.
+
+Como todo projeto construído com auxílio de IA e com foco didático, o simulador pode conter simplificações, inconsistências ou comportamentos que ainda não reflitam com total fidelidade o equipamento real.
+
+A ajuda da comunidade é muito bem-vinda para identificar erros, sugerir melhorias e evoluir o simulador até que ele fique cada vez mais fiel à realidade.
 
 ## 🗺️ Roadmap
 
