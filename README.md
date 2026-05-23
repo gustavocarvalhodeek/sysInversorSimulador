@@ -124,19 +124,11 @@ Este sistema é um **simulador educacional**. Ele foi modelado para estudo, trei
 
 ## 🖼️ Demonstração
 
-Adicione aqui screenshots, GIFs ou vídeos do simulador em uso.
-
 ![](https://i.ibb.co/Lhs59wHQ/Captura-de-tela-2026-05-23-142708.png)
 
 ![](https://i.ibb.co/KpkX6yQM/Captura-de-tela-2026-05-23-143249.png)
 
 ![](https://i.ibb.co/8gwyHxsJ/Captura-de-tela-2026-05-23-142809.png)
-
-Se desejar, também é possível incluir:
-
-- link para vídeo de demonstração;
-- link para deploy de preview;
-- GIF curto mostrando navegação na HMI.
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -168,8 +160,8 @@ Também é recomendado:
 ## 🚀 Como instalar
 
 ```bash
-git clone https://github.com/USUARIO/NOME-DO-REPOSITORIO.git
-cd NOME-DO-REPOSITORIO
+git clone github.com/gustavocarvalhodeek/sysInversorSimulador.git
+cd sysInversorSimulador
 npm install
 ```
 
@@ -580,9 +572,10 @@ Preencha esta seção com os créditos finais do repositório, por exemplo:
 Exemplo:
 
 ```md
-Desenvolvido por Nome do Autor
-Instituição / Curso / Laboratório
-LinkedIn: https://www.linkedin.com/in/usuario
+Desenvolvido por Gustavo Carvalho
+NEXA Automação Industrial
+Instagram: www.instagram.com/gustavocarvalhoautomacao
+Instagram: www.instagram.com/nexaautomacao
 ```
 
 ---
