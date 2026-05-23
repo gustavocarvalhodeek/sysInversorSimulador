@@ -126,13 +126,11 @@ Este sistema é um **simulador educacional**. Ele foi modelado para estudo, trei
 
 Adicione aqui screenshots, GIFs ou vídeos do simulador em uso.
 
-Exemplos:
+![](https://i.ibb.co/Lhs59wHQ/Captura-de-tela-2026-05-23-142708.png)
 
-```md
-<img src="https://i.ibb.co/Lhs59wHQ/Captura-de-tela-2026-05-23-142708.png">
-<img src="https://i.ibb.co/8gwyHxsJ/Captura-de-tela-2026-05-23-142809.png">
-<img src="https://i.ibb.co/8gwyHxsJ/Captura-de-tela-2026-05-23-142809.png">
-```
+![](https://i.ibb.co/8gwyHxsJ/Captura-de-tela-2026-05-23-142809.png)
+
+![](https://i.ibb.co/8gwyHxsJ/Captura-de-tela-2026-05-23-142809.png)
 
 Se desejar, também é possível incluir:
 
