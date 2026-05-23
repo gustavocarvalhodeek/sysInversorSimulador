@@ -128,7 +128,7 @@ Adicione aqui screenshots, GIFs ou vídeos do simulador em uso.
 
 ![](https://i.ibb.co/Lhs59wHQ/Captura-de-tela-2026-05-23-142708.png)
 
-![](https://i.ibb.co/8gwyHxsJ/Captura-de-tela-2026-05-23-142809.png)
+![](https://i.ibb.co/KpkX6yQM/Captura-de-tela-2026-05-23-143249.png)
 
 ![](https://i.ibb.co/8gwyHxsJ/Captura-de-tela-2026-05-23-142809.png)
 
